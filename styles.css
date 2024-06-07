@@ -11,7 +11,7 @@ html {
 }
 
 .container {
-  background-image: url("hello.jpeg"); /* Use the provided image */
+  background-image: url("hello.jpeg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -88,4 +88,52 @@ p {
 
 .footer p {
   margin: 5px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .subscribe-section {
+    margin-top: 50px;
+  }
+
+  .subscribe input[type="email"] {
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .subscribe input[type="email"] {
+    width: 200px;
+  }
+
+  .subscribe input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .social-icon {
+    font-size: 20px;
+  }
 }
