@@ -3,119 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Image with Subscription Form</title>
-    <style>
-      body,
-      html {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        font-family: Arial, sans-serif;
-      }
-      .container {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-      }
-      .image-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        z-index: -1;
-      }
-      .image-container img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .form-container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 12vh;
-      }
-      .form-container form {
-        display: flex;
-        align-items: center;
-        border-radius: 5px;
-        overflow: hidden;
-      }
-      .form-container input[type="email"] {
-        padding: 10px;
-        margin: 0;
-        width: 80%;
-        max-width: 300px;
-        border: 1px solid #ccc;
-        border-right: none;
-        border-radius: 20px 0 0 20px;
-        outline: none;
-      }
-      .form-container input[type="submit"] {
-        padding: 10px 20px;
-        margin: 0;
-        background-color: #ff0000;
-        color: white;
-        border: 1px solid #ff0000;
-        border-radius: 0 20px 20px 0;
-        cursor: pointer;
-        outline: none;
-      }
-      .form-container input[type="submit"]:hover {
-        background-color: #cc0000;
-      }
-      .heading {
-        position: absolute;
-        top: 10%;
-        width: 100%;
-        text-align: center;
-        color: white;
-      }
-      .heading h1 {
-        margin: 0;
-        font-size: 3em;
-        font-weight: bold;
-      }
-      .heading h4 {
-        margin: 0;
-        font-size: 1.5em;
-        font-weight: normal;
-      }
-    </style>
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
-      <div class="heading">
-        <h1>Stay Tuned...........</h1>
-        <h4>Something big is beneath the surface</h4>
+      <div class="content">
+        <h1>Stay Tuned.</h1>
+        <p>Something big is beneath the surface</p>
+        <div class="subscribe">
+          <form action="https://getform.io/f/raeqxwda" method="post">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              name="email"
+              required
+            />
+            <input type="submit" value="Subscribe" />
+          </form>
+        </div>
       </div>
-      <div class="form-container"></div>
-      <div class="image-container">
-        <img src="white-ice-berg (1).jpg" alt="Background Image" />
-      </div>
-      <div class="form-container">
-        <form action="https://getform.io/f/raeqxwda" method="post">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            name="email"
-            required
-          />
-          <input type="submit" value="Subscribe" />
-        </form>
+      <div class="footer">
+        <p>Get notified when we launch</p>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>© Copyrights Greelogix | All Rights Reserved</p>
       </div>
     </div>
   </body>
