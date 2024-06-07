@@ -5,10 +5,13 @@ html {
   width: 100%;
   height: 100%;
   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  background-image: url("image.jpg"); /* Use the provided image */
+  background-image: url("hello.jpeg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -16,10 +19,10 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   color: white;
-  text-align: center;
-  padding: 20px;
+  text-align: left;
+  padding: 40px;
   box-sizing: border-box;
 }
 
@@ -34,23 +37,27 @@ h1 {
 
 p {
   font-size: 24px;
+  margin: 10px 0;
 }
 
-.subscribe {
-  margin-top: 20px;
+.subscribe-section {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .subscribe input[type="email"] {
-  padding: 10px;
+  padding: 15px;
   font-size: 16px;
   border: none;
   border-radius: 20px 0 0 20px;
   outline: none;
-  width: 250px;
+  width: 300px;
 }
 
 .subscribe input[type="submit"] {
-  padding: 10px 20px;
+  padding: 15px 25px;
   font-size: 16px;
   border: none;
   border-radius: 0 20px 20px 0;
@@ -61,6 +68,14 @@ p {
 
 .footer {
   margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  margin: 20px 0;
 }
 
 .social-icon {
@@ -68,10 +83,6 @@ p {
   color: white;
   margin: 0 10px;
   text-decoration: none;
-}
-
-.social-icons a {
-  margin: 0 10px;
 }
 
 .footer p {
