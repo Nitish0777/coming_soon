@@ -11,7 +11,7 @@ html {
 }
 
 .container {
-  background-image: url("hello.jpeg");
+  background-image: url("hello.jpeg"); /* Use the provided image */
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -41,10 +41,11 @@ p {
 }
 
 .subscribe-section {
-  margin-top: 100px;
+  margin-top: 80px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subscribe input[type="email"] {
