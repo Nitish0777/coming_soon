@@ -27,9 +27,30 @@ html {
 }
 
 .content {
-  margin-top: 100px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
+.yel {
+  margin-left: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: white;
+  margin-top: 20px;
+  font-size: 28px;
+  /* padding: 3px; */
+}
+.get {
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 h1 {
   font-size: 72px;
   margin: 0;
@@ -41,7 +62,7 @@ p {
 }
 
 .subscribe-section {
-  margin-top: 80px;
+  margin-top: 160px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -49,7 +70,7 @@ p {
 }
 
 .subscribe input[type="email"] {
-  padding: 15px;
+  padding: 10px;
   font-size: 16px;
   border: none;
   border-radius: 20px 0 0 20px;
@@ -58,13 +79,14 @@ p {
 }
 
 .subscribe input[type="submit"] {
-  padding: 15px 25px;
+  padding: 10px 25px;
   font-size: 16px;
   border: none;
   border-radius: 0 20px 20px 0;
   background-color: red;
   color: white;
   cursor: pointer;
+  margin-left: -5px;
 }
 
 .footer {
@@ -76,18 +98,20 @@ p {
 }
 
 .social-icons {
-  margin: 20px 0;
+  margin-top: 60px;
 }
 
 .social-icon {
-  font-size: 24px;
+  font-size: 14px;
   color: white;
-  margin: 0 10px;
+  margin: 0 15px;
+  margin-top: 10px;
   text-decoration: none;
 }
 
 .footer p {
-  margin: 2px 0;
+  margin-top: 18px;
+  font-size: 12px;
 }
 
 /* Media Queries for Responsiveness */
