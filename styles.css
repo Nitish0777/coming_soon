@@ -64,6 +64,7 @@ p {
 }
 
 .subscribe-section {
+  margin-top: 90px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -111,7 +112,7 @@ p {
 }
 
 .footer p {
-  margin-top: 18px;
+  margin-top: 28px;
   font-size: 12px;
 }
 
